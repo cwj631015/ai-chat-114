@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+header,
+section {
+    scroll-margin-top: 48px;
+}
+
+textarea:focus,
+input:focus,
+select:focus {
+    outline: none;
+}
+
+.fortune-card {
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, .5);
+}
+
+.fortune-bg {
+    transition: all .5s ease;
+}
+
+.fortune-card:hover .fortune-bg {
+    filter: brightness(0.7);
+}
+
+#SectionOpenAIChat {
+    box-shadow: 0px 20px 30px rgba(255, 255, 255, 0.8);
+}
